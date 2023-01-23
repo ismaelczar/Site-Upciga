@@ -1,0 +1,35 @@
+.principal {
+    margin: 25px 180px 0 180px;
+    padding-top: 35px ;
+
+}
+
+.principal_sessao {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.principal_sessao--titulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.principal_titulo {
+    font-family: var(--font-bory);
+    font-size: 65px;
+    font-weight: 600;
+    margin:0 0 30px 0
+}
+
+.principal_paragrafo {
+    font-size: 17px;
+    font-family: var(--font-bory);
+    font-weight: 400s;
+}
+
+.principal_artborad {
+    border-radius: 22px;
+}
