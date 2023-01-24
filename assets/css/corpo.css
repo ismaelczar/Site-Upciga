@@ -114,16 +114,19 @@
 	display: flex;
 	justify-content: space-around;
 	margin-top: 60px;
+	background: url(../img/linha_verde.svg) no-repeat;
+	background-position: initial;
 }
 
 
-.linha_verde {
+/* .linha_verde {
 	position: absolute;
-	margin-top: 150px;
-	left: -5%;
+	top: 1150px;
+	left: -50%;
 	z-index: -1;
 
-}
+
+} */
 
 .dashborad_descricao {
 	display: flex;
