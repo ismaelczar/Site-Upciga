@@ -1,0 +1,60 @@
+.plataformas {
+    background: url(../img/banner-cell-1900.png) no-repeat;
+    background-size: 100% auto;
+    height: 1000px;
+}
+
+.plataformas_sessao {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 40px;
+    width: 900px;
+
+}
+
+.plataformas_titulo {
+    font-family: var(--font-nav);
+    color: var(--branco);
+    font-size: 70px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.plataformas_texto--destaque {
+    font-family: var(--font-nav);
+    color: var(--branco);
+    font-size: 32px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.plataformas_texto {
+    font-family: var(--font-nav);
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+.b_verde {
+    border-top: 5px solid var(--verde);
+	width: 100px;
+    position: absolute;
+    top: -15%;
+}   
+
+.plataformas_botao {
+    width: 250px;
+	font-family: var(--font-nav);
+	font-weight: 700;
+	font-size: 22px;
+	background-color: var(--verde);
+	color: #ffffff;
+	padding: 12px 40px;
+	border-radius: 8px;
+	border: none;
+	/* margin-top: 50px; */
+    position: absolute;
+}

@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 0;
     background-color: var(--branco);
-    z-index: 2;
+    z-index: 3;
     background-color: var(--branco);
 
 }
@@ -12,10 +12,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 190px;
-    padding: 18px;
+    padding: 0 190px 0 190px;
     font-family: var(--font-nav);
     font-weight: 700;
+    height: 80px;
 
 }
 
@@ -36,6 +36,7 @@ header {
 .lista_item {
     margin-left: 45px;
     color: var(--preto);
+    font-size: 20px;
 
 }
 
@@ -105,3 +106,6 @@ header {
     margin: 16px 0 0 0;
 }
 
+.seta_entrar {
+    font-size: 22px;
+}

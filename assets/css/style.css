@@ -1,10 +1,10 @@
 :root {
-    --font-nav:'Lato', sans-serif;
+    --font-nav: 'Lato', sans-serif;
     --font-bory: 'Poppins', sans-serif;
     --verde: #65a300;
-    --roxo:rgb(107, 8, 203);
-    --preto:rgb(69, 69, 80);
-    --branco:rgb(255, 255, 255);
+    --roxo: rgb(107, 8, 203);
+    --preto: rgb(69, 69, 80);
+    --branco: rgb(255, 255, 255, 0.9);
 
 
 }
