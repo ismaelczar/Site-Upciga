@@ -1,0 +1,47 @@
+.contato {
+    padding: 150px 0 100px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contato_imagem {
+    width: 150px;
+    height: 150px;
+}
+
+
+.contato_titulo {
+    font-family: var(--font-nav);
+    color: black;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 30px 0 30px 0;
+}
+
+.contato_negrito {
+    color: var(--verde);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.contato_botao {
+    width: 250px;
+    font-family: var(--font-nav);
+    font-weight: 700;
+    font-size: 22px;
+    background-color: var(--roxo);
+    color: #ffffff;
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: none;
+    /* margin-top: 50px; */
+
+}
+
+.footer {
+    background: #1b1c29;
+    color: var(--branco);
+    height: 20vh;
+    text-align: center;
+}
