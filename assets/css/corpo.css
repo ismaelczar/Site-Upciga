@@ -1,13 +1,14 @@
 .principal {
     margin: 25px 180px 0 180px;
-    padding-top: 35px ;
+    padding-top: 35px;
+
 
 }
 
 .principal_sessao {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .principal_sessao--titulo {
@@ -21,15 +22,145 @@
     font-family: var(--font-bory);
     font-size: 65px;
     font-weight: 600;
-    margin:0 0 30px 0
+    margin: 54px 0 30px 0;
+    line-height: 62px;
 }
 
 .principal_paragrafo {
     font-size: 17px;
     font-family: var(--font-bory);
     font-weight: 400s;
+    margin-bottom: 30px;
 }
+
+.principal_sessao--artborad {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .principal_artborad {
     border-radius: 22px;
+    z-index: 1;
+}
+
+.principal_botao {
+    width: 250px;
+    font-family: var(--font-nav);
+    font-weight: 700;
+    font-size: 14px;
+    background-color: var(--verde);
+    color: #ffffff;
+    padding: 16px 40px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.artborad_bolinhas {
+    position: absolute;
+    top: 65px;
+    right: 650px;
+
+
+}
+
+.artborad_ondas {
+    position: absolute;
+    top: 600px;
+    z-index: 2;
+    right: 0;
+}
+
+.principal_sessao--destaques {
+    margin-top: 200px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.uil {
+    padding: 0 32px;
+    font-size: 26px;
+    font-family: var(--font-nav);
+    color: var(--preto);
+}
+
+.uil-desktop-cloud-alt::before {
+    font-size: 50px;
+    color: var(--verde);
+}
+
+.uil-dollar-sign::before {
+    font-size: 50px;
+    color: var(--verde);
+}
+
+.uil-phone-volume::before {
+    font-size: 50px;
+    color: var(--verde);
+}
+
+.uil-comments-alt::before {
+    font-size: 50px;
+    color: var(--verde);
+}
+
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.linha_verde {
+    position: absolute;
+    margin-top: 120px;
+    left: -10%;
+    z-index: -1;
+
+}
+
+.dashborad_descricao {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+.dashborad_titulo {
+    font-family: var(--font-nav);
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 54px 0 30px 0;
+
+}
+
+.b_roxo {
+    color: var(--roxo);
+}
+
+.dashborad_texto {
+    font-family: var(--font-nav);
+    font-size: 16px;
+    line-height: 27px;
+    margin: 16px 0 0 0;
+}
+
+.dashborad_botao {
+    width: 250px;
+    font-family: var(--font-nav);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--roxo);
+    color: #ffffff;
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    
 }

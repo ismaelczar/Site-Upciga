@@ -1,7 +1,10 @@
-header {   
-    position: sticky;   
-    top: 0; 
-    
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--branco);
+    z-index: 2;
+    background-color: var(--branco);
+
 }
 
 
@@ -13,7 +16,7 @@ header {
     padding: 18px;
     font-family: var(--font-nav);
     font-weight: 700;
-        
+
 }
 
 
@@ -23,17 +26,17 @@ header {
 
 .sessao_nav--lista {
     display: flex;
-    margin: 0 16px;
+    margin: 0 0 0 18px;
     list-style: none;
     text-align: center;
     align-items: center;
-    
+
 }
 
 .lista_item {
-    margin-left: 32px;
+    margin-left: 45px;
     color: var(--preto);
-    
+
 }
 
 .botoes_transparente {
@@ -52,10 +55,53 @@ header {
     font-weight: 700;
     font-size: 14px;
     background-color: var(--verde);
-    color:#ffffff;
+    color: #ffffff;
     padding: 12px 40px;
     border-radius: 8px;
     border: none;
     margin-left: 8px;
-    
+
 }
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.linha_verde {
+    position: absolute;
+    margin-top: 120px;
+    left: -10%;
+    z-index: -1;
+
+}
+
+.dashborad_descricao {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+.dashborad_titulo {
+    font-family: var(--font-nav);
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 54px 0 30px 0;
+
+}
+
+.b_roxo {
+    color: var(--roxo);
+}
+
+.dashborad_texto {
+    font-family: var(--font-nav);
+    font-size: 16px;
+    line-height: 27px;
+    margin: 16px 0 0 0;
+}
+
