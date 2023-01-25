@@ -11,8 +11,8 @@ header {
 .cabecalho {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 190px 0 190px;
+    justify-content: space-around;
+    /* padding: 0 190px 0 190px; */
     font-family: var(--font-nav);
     font-weight: 700;
     height: 80px;
