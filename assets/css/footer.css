@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 .footer_titulo--destaque {
