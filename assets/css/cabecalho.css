@@ -127,7 +127,7 @@ header {
     font-size: 22px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
     .cabecalho {
         padding: 0 100px;
     }
