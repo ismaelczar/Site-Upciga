@@ -138,11 +138,11 @@ header {
     }
 
     .cabecalho_logo {
-        display: none;
+        display: block;
     }
 
     .cabecalho_titulo {
-        display: block;
+        display: none;
     }
 
 }
