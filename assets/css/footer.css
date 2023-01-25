@@ -98,4 +98,11 @@
         text-align: center;
         background-color: #f9f9f9;
     }
+
+    .contato_imagem {
+        width: 100px;
+        height: 100px;
+        
+    }
+    
 }
