@@ -58,3 +58,26 @@
 	/* margin-top: 50px; */
     position: absolute;
 }
+
+@media screen and (max-width:1600px){
+    .plataformas_sessao {
+        margin: 0 auto 0 0;
+        padding: 150px 0 0 16px;
+        width: 600px;
+    }
+
+    .plataformas_titulo {
+        font-family: var(--font-nav);
+        color: var(--branco);
+        font-size: 55px;
+        line-height: 55px;
+        font-weight: 650;
+        margin: 0 0 40px 0;
+    }
+
+    .plataformas {
+        height: 800px;
+    }
+
+
+}

@@ -42,7 +42,7 @@
 .principal_artboard {
 	border-radius: 22px;
 	z-index: 1;
-	
+
 
 }
 
@@ -124,8 +124,8 @@
 
 .linha_verde {
 	position: absolute;
-	top:0;
-	left:-38%;
+	top: 0;
+	left: -38%;
 	z-index: -2;
 
 
@@ -179,27 +179,43 @@
 
 }
 
-@media screen  and (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
 	.principal {
 		margin: 40px 16px 0 16px;
-		padding-top: 35px;	
-		
-	
+		padding-top: 35px;
+
+
 	}
 
 	.artboard_bolinhas {
 		position: absolute;
 		top: 100px;
 		right: 485px;
-		
+
 	}
 
 	.linha_verde {
 		position: absolute;
-		top:0;
-		left:-34%;
+		top: 0;
+		left: -34%;
 		z-index: -2;
-	
-	
+
+
+	}
+
+	.principal_titulo {
+		padding: 0 16px 0 0;
+	}
+
+	.principal_sessao--destaques {
+		padding: 0;
+		display: flex;
+	}
+
+	.uil {
+		padding: 0 16px;
+		font-size: 20px;
+		font-family: var(--font-nav);
+		color: var(--preto);
 	}
 }

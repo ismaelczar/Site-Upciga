@@ -145,4 +145,21 @@ header {
         display: none;
     }
 
+
+
+}
+
+@media screen and (max-width:1200px) {
+    .cabecalho_logo {
+        display: none;
+    }
+
+    .cabecalho_titulo{
+        display: block;
+        font-size: 28px;
+    }
+
+    .cabecalho {
+        padding: 0 50px;
+    }
 }
