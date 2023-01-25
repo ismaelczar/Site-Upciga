@@ -35,9 +35,13 @@ header {
 
 .lista_item {
     margin-left: 45px;
-    color: var(--preto);
     font-size: 20px;
 
+}
+
+.cabecalho_link {
+    color: var(--preto);
+    text-decoration: none;
 }
 
 .botoes_transparente {

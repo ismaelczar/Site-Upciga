@@ -7,6 +7,7 @@
 .contato_imagem {
     width: 150px;
     height: 150px;
+    
 }
 
 
@@ -41,7 +42,42 @@
 
 .footer {
     background: #1b1c29;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 2em;
+}
+
+.footer_titulo--destaque {
+    font-family: var(--font-nav);
     color: var(--branco);
-    height: 20vh;
-    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.uil-footer {
+    color: var(--branco);
+    font-size: 1.5rem;
+    /* padding-top: 1.9rem; */
+    padding: 0 0.2em;
+}
+
+.footer_titulo {
+    text-decoration: none;
+    font-family: var(--font-nav);
+    font-size: 0.9em;
+    color: #7fcc00;
+    
+}
+
+.footer_link {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--font-nav);    
+}
+
+.footer_item {
+    padding: 8px 0 16px 0;
 }

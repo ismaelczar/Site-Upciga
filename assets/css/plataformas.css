@@ -1,13 +1,13 @@
 .plataformas {
     background: url(../img/banner-cell-1900.png) no-repeat;
     background-size: 100% auto;
-    height: 1000px;
+    height: 800px;
 }
 
 .plataformas_sessao {
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 40px;
+    
+    margin: 0 auto 0 0;
+    padding: 300px 0 0 16px;
     width: 900px;
 
 }
