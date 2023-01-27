@@ -178,6 +178,15 @@
 	margin-top: 50px;
 
 }
+.botao_transparente--link{
+	color: var(--preto);
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
+	color: var(--branco);
+}
 
 @media screen and (max-width: 1600px) {
 	.principal {
