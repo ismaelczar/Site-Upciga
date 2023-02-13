@@ -104,5 +104,9 @@
         height: 100px;
         
     }
+
+    .contato_titulo {
+        font-size: 35px;
+    }
     
 }

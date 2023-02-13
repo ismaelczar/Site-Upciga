@@ -3,7 +3,7 @@ header {
     top: 0;
     background-color: var(--branco);
     z-index: 3;
-    background-color: rgb(255, 255, 255, 1);
+    background-color:var(--branco-escuro);
 
 }
 
@@ -48,8 +48,16 @@ header {
 
 .lista_item {
     margin-left: 45px;
-    font-size: 20px;
+    font-size: 18px;
+    color: var(--verde);
+}
 
+.lista_item:hover {
+    color: var(--preto);
+}
+
+.cabecalho_link:hover {
+    color: var(--verde);
 }
 
 .cabecalho_link {
@@ -65,6 +73,17 @@ header {
     background-color: transparent;
     border: none;
     font-size: 16px;
+}
+
+.botoes_transparente:hover {
+    color: var(--verde);
+    transition: 1s;
+}
+
+
+.botao_transparente--link:hover {
+    color: var(--verde);
+    transition: 1s;
 }
 
 
@@ -156,7 +175,12 @@ header {
 
     .cabecalho_titulo{
         display: block;
-        font-size: 28px;
+        font-size: 32px;
+    }
+
+    .cabecalho_titulo--bolder {
+        font-size: 32px;
+        font-weight: 700;
     }
 
     .cabecalho {
