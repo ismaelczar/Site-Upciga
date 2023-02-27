@@ -20,26 +20,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-	<title>Upciga Automação</title>
+	<title>Upciga|Home</title>
 </head>
 
 <body>
 	<header class="cabecalho">
 
 		<div class="cabecalho_sessao--nav">
-			<h2 class="cabecalho_titulo"><b class="cabecalho_titulo--bolder">UP</b>CIGA</h2>
+			<h2 class="cabecalho_titulo"><b class="cabecalho_titulo--bolder">UP</b></h2>
 			<img src="assets/img/logo-horizontal200.png" alt="logo da Upciga" class="cabecalho_logo">
 			<ul class="sessao_nav--lista">
-				<li class="lista_item"><a href="#" class="cabecalho_link">Soluções</a><i class="uil-angle-down"></i>
-				</li>
+				<li class="dropdown lista_item"><a href="#solucoes" class="cabecalho_link">Soluções</a><i
+						class="uil-angle-down"></i></li>
+				<nav class="dropdown-lista">
+					<li class="dropdown-item"><a href="#" class="cabecalho_link">Seguimentos</a></li>
+					<li class="dropdown-item"><a href="#" class="cabecalho_link">Módulos</a></li>
+				</nav>
 				<li class="lista_item"><a href="#" class="cabecalho_link">Ofertas</a></li>
 				<li class="lista_item"><a href="#" class="cabecalho_link">Blog</a></li>
-				<li class="lista_item"><a href="#" class="cabecalho_link">Dúvidas</a></li>
+				<li class="lista_item"><a href="#duvidas" class="cabecalho_link">Dúvidas</a></li>
 				<li class="lista_item"><a href="#" class="cabecalho_link">Suporte</a><i class="uil-angle-down"></i></li>
 			</ul>
 		</div>
 
-		<div class="cabecalho_sessao--botoes">
+		<div class="\">
 			<button type="button" class="botoes_transparente"><a href="#" class="botao_transparente--link">Entrar</a><i
 					class="uil-arrow-down-right seta_entrar"></i></button>
 			<button type="button" class="botoes_destaque"><a href="#" class="botoes_destaque--link link">Cadastrar
@@ -65,7 +69,7 @@
 			</div>
 		</div>
 
-		<article class="principal_sessao--destaques">
+		<article class="principal_sessao--destaques" id="solucoes">
 			<i class="uil uil-bill">Sistema de gestão</i>
 			<i class="uil uil-dollar-sign">Controle Financeiro</i>
 			<i class="uil uil-phone-volume">Atendimento personalizado</i>
@@ -75,7 +79,7 @@
 		<section class="dashboard">
 			<div class="dashboard_imagens">
 				<img src="assets/img/linha_verde.svg" alt="Linha-verde" class="linha_verde">
-				<img src="assets/img/macbook1.webp" alt="Dashborad">
+				<img src="assets/img/macbook1.webp" alt="Dashborad" class="meck">
 			</div>
 
 			<div class="dashborad_descricao">
@@ -118,7 +122,7 @@
 		<div class="contato">
 			<img src="assets/img/logo-verde-300.png" alt="logo_upciga_verde_e_branco" class="contato_imagem">
 			<h3 class="contato_titulo">E aí, que tal manter seu <b class="contato_negrito">négocio</b> em ordem ?</h3>
-			<button type="button" class="contato_botao"><a href="#"
+			<button type="button" class="contato_botao" id="duvidas"><a href="#"
 					class="contato_botao--link link">Contate-nos</a></button>
 		</div>
 
@@ -172,11 +176,9 @@
 					<li class="footer_item"><a href="#" class="footer_link">Quero ser cliente</a></li>
 				</ul>
 			</div>
-
-
 		</div>
 	</footer>
-
+	<script src="main.js"></script>
 </body>
 
 </html>

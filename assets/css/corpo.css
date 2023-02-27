@@ -228,3 +228,14 @@
 		color: var(--preto);
 	}
 }
+
+@media screen and (max-width: 1000px){
+	.dashboard {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.meck {
+		align-items: center;
+	}
+}

@@ -81,3 +81,34 @@
 
 
 }
+
+@media screen and (max-width:1200px) {
+    .plataformas_sessao  {
+        width:800px ;
+    }
+}
+
+@media screen and (max-width:992px){
+    .plataformas {
+        height: 600px;
+        background: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .plataformas_titulo , .plataformas_texto--destaque , .plataformas_texto {
+        color: black;
+    }
+
+    .plataformas_sessao {
+    
+        margin: 0;
+        padding: 200px 50px 0 50px;
+        width: auto;
+        font-size: 22px;
+    
+    }
+}
