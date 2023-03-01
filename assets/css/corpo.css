@@ -233,9 +233,31 @@
 	.dashboard {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
+		
+	}
+
+	.dashborad_descricao {
+		margin: 0 auto;
+		align-items: center;
+		width: auto;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.principal_sessao--destaques {
+		display: flex;
+		flex-direction:column ;
+	}
+	.uil {
+		padding: 1em 0;
+	}
+
+	.principal_sessao--destaques {
+		margin: 100px 0px;
 	}
 
 	.meck {
-		align-items: center;
+		width: 300px;
 	}
 }

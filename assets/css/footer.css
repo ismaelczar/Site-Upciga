@@ -110,3 +110,34 @@
     }
     
 }
+
+@media screen and (max-width:830px) {
+    .footer {
+        height: 150px;
+    }
+    
+    .footer_logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contato {
+        padding: 100px 0 50px 0;
+    }
+
+    .contato_titulo {
+        font-size: 30px;
+    }
+
+    .footer_logo {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_navegacao, .footer_suporte, .footer_upciga, .footer_contato {
+        display: none;
+    }
+
+
+}
